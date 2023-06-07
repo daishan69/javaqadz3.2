@@ -4,8 +4,8 @@ public class Main {
         BmiService service = new BmiService();
         int weight = 98;
         double height = 1.87;
-        double x = (height * height);
-        int index = service.calculate(weight ,x);
+        double  squared = (height * height);
+        int index = service.calculate(weight ,squared);
         System.out.println(index);
 
 
